@@ -25,13 +25,14 @@ docker exec -it $(docker ps | grep "python-ml-env_api" | awk '{print $1}') bash
 
 1. Clone the specific claim in the claims directory.
 2. Add the requirements in the requirements.txt directory.
-3. Login to the python shell.
+3. Build/rebuild the docker container
+4. Login to the python shell.
     ```sh
     docker exec -it $(docker ps | grep "python-ml-env_api" | awk '{print $1}') bash
     ```
-4. From this shell, run the commands as specified in the claimant's repo readme file.
+5. From this shell, run the commands as specified in the claimant's repo readme file.
 
-5. To change the Python version, modify the line number 1 of Dockerfile.
+6. To change the Python version, modify the line number 1 of Dockerfile.
 
 
 ### Good Ideas ###
