@@ -31,4 +31,6 @@ docker exec -it $(docker ps | grep "python-ml-env_api" | awk '{print $1}') bash
     ```
 4. From this shell, run the commands as specified in the claimant's repo readme file.
 
+5. To change the Python version, modify the line number 1 of Dockerfile.
+
 
