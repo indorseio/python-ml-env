@@ -34,3 +34,10 @@ docker exec -it $(docker ps | grep "python-ml-env_api" | awk '{print $1}') bash
 5. To change the Python version, modify the line number 1 of Dockerfile.
 
 
+### Good Ideas ###
+1. Search for the library in the website https://pypi.org/project.
+2. Then match the specified version as per the claimant's repo readme file.
+3. It should be available.
+4. If it is available, then add the same requirement in requirements.txt.
+ 
+
